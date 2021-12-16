@@ -9,7 +9,15 @@ Before applying the script
 After applying the script
 ![After](after.png)
 
-The only thing you have to do is copy and paste the script in the browser dev tools.
+## Usage
+
+1. Copy the script
+
+2. Go to the printer webpage
+
+3. Paste the script in the browser dev tools (`F12` or `Ctrl+Shift+c` to open dev tools).
+
+4. Click **Start scan** to start the first scan and an interval will be set to automatically click the **Start scan** button every `n` seconds (defined with the slider next to the **Stop interval** button). You won't need to click the button again 😉 (although you still need to save the scan. See below).
 
 ## TODO's
 
