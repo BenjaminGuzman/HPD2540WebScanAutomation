@@ -46,11 +46,6 @@ stopIntervalBtn.onclick = (e) => {
 }
 
 // start the interval as soon the user presses scan for the first time
-let firstTime = true;
-scanBtn.addEventListener("click", () => {
-	if (firstTime)
-		start();
-	firstTime = false;
-});
+scanBtn.addEventListener("click", start);
 
 buttonsDiv.getElementsByClassName("btn-list")[0].appendChild(template.content);
